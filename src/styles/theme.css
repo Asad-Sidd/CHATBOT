@@ -1,0 +1,40 @@
+:root,
+:root[data-theme="light"] {
+  /* Vibrant background for glassmorphism to pop */
+  --theme-bg: linear-gradient(135deg, #ffcbf2 0%, #e2c0ff 50%, #b5d5ff 100%);
+  --theme-surface: rgba(255, 255, 255, 0.4);
+  --theme-surface-2: rgba(255, 255, 255, 0.3);
+  --theme-border: rgba(255, 255, 255, 0.5);
+  --theme-text: #1d1b20;
+
+  --theme-accent: #8b5cf6;
+  --theme-accent-strong: rgba(139, 92, 246, 0.8);
+  --theme-user-bubble: rgba(139, 92, 246, 0.2);
+  --theme-bot-bubble: rgba(255, 255, 255, 0.6);
+  --theme-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+
+  --theme-input-bg: rgba(255, 255, 255, 0.4);
+  --theme-input-border: rgba(255, 255, 255, 0.5);
+  --theme-suggestion-btn-bg: rgba(255, 255, 255, 0.3);
+  --theme-suggestion-btn-border: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="dark"] {
+  /* Dark aesthetic theme */
+  --theme-bg: linear-gradient(135deg, #2b1055 0%, #171b36 50%, #0d2038 100%);
+  --theme-surface: rgba(16, 18, 27, 0.4);
+  --theme-surface-2: rgba(16, 18, 27, 0.3);
+  --theme-border: rgba(255, 255, 255, 0.1);
+  --theme-text: #f8f8f8;
+
+  --theme-accent: #c084fc;
+  --theme-accent-strong: rgba(192, 132, 252, 0.8);
+  --theme-user-bubble: rgba(192, 132, 252, 0.3);
+  --theme-bot-bubble: rgba(255, 255, 255, 0.1);
+  --theme-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  --theme-input-bg: rgba(16, 18, 27, 0.4);
+  --theme-input-border: rgba(255, 255, 255, 0.1);
+  --theme-suggestion-btn-bg: rgba(255, 255, 255, 0.05);
+  --theme-suggestion-btn-border: rgba(255, 255, 255, 0.1);
+}

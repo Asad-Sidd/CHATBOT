@@ -1,0 +1,2 @@
+export { knowledgeBase } from "./vscodeKnowledgeBase";
+
